@@ -20,13 +20,15 @@
   background-color: var(--button-background-color) !important;
   width: var(--image-width);
   height: var(--image-height);
-  left: 50%;
+}
+
+
+#avatar {
   transform: translatex(-50%);
   position: absolute;
   top: -4.5rem;
   z-index: 1000;
 }
-
 
 .social-icon {
   font-size: 32px;
